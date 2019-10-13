@@ -11,3 +11,15 @@ function toggleMenuOne() {
 
 buttonOne.addEventListener('mouseover', toggleMenuOne);
 buttonOne.addEventListener('mouseleave', toggleMenuOne);
+
+// Menu Two
+
+var buttonTwo = document.querySelector('.button-two');
+var menuTwo = document.querySelector('.hidden-two');
+
+function toggleMenuTwo() {
+  menuTwo.classList.toggle('show-menu-two');
+}
+
+buttonTwo.addEventListener('mouseover', toggleMenuTwo);
+buttonTwo.addEventListener('mouseleave', toggleMenuTwo);
