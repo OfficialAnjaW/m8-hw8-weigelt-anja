@@ -28,3 +28,23 @@
   border: 2px solid #fff;
   box-sizing: border-box;
 }
+
+/* Hide Hidden Classes/Original Elements */
+
+.hidden-one {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.hidden-two {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.hidden-three {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
