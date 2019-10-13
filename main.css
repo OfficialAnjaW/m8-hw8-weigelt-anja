@@ -48,3 +48,20 @@
   overflow: hidden;
   transition: height 0.5s;
 }
+
+/* Show Hidden Classes/Added Elements */
+
+.show-menu-one {
+  height: 184px;
+  transition: height 0.5s;
+}
+
+.show-menu-two {
+  height: 184px;
+  transition: height 0.5s;
+}
+
+.show-menu-three {
+  height: 184px;
+  transition: height 0.5s;
+}
