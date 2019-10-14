@@ -31,19 +31,9 @@
 
 /* Hide Hidden Classes/Original Elements */
 
+.hidden-three,
+.hidden-two,
 .hidden-one {
-  height: 0px;
-  overflow: hidden;
-  transition: height 0.5s;
-}
-
-.hidden-two {
-  height: 0px;
-  overflow: hidden;
-  transition: height 0.5s;
-}
-
-.hidden-three {
   height: 0px;
   overflow: hidden;
   transition: height 0.5s;
@@ -51,17 +41,9 @@
 
 /* Show Hidden Classes/Added Elements */
 
+.show-menu-three,
+.show-menu-two,
 .show-menu-one {
-  height: 184px;
-  transition: height 0.5s;
-}
-
-.show-menu-two {
-  height: 184px;
-  transition: height 0.5s;
-}
-
-.show-menu-three {
   height: 184px;
   transition: height 0.5s;
 }
